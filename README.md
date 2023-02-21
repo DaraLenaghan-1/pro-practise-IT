@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Mobile Phone Ecommerce Website
+This is a simple ecommerce website project built using the MERN (MongoDB, Express, React, and Node.js) stack. The website allows users to browse and purchase mobile phones.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+Product listings:
+Users can view a list of mobile phones and their details, such as the model, brand, and specifications.
+Shopping cart: Users can add products to their shopping cart and proceed to checkout.
+Checkout: Users can review their order and enter their shipping information to complete their purchase.
+Order history: Users can view a history of their past orders.
+# How to run the website
+Clone the repository to your local machine.
+Navigate to the root directory of the project and install the dependencies by running npm install.
+Start the development server by running npm run dev / npm start.
+The website should now be running on http://localhost:3000.
+# Tech Stack
+MongoDB: Used as the database to store product information and customer orders.
+Express: Used to handle server-side logic and API routes.
+React: Used for the front-end user interface.
+Node.js: Used to run the server-side code.
 
-## Available Scripts
+# Week 1 
+Had a discussion to plan out our project and what milestones we attend to achieve.
+Decided on an ecommerce website for selling phones using MERN stack. 
+Created Git hub and notion account for our project where we can make notes and both upload code. 
+Had a meeting with our supervisor about our project where we were advised to have the architecture done before we started coding.
+We were also advised to have a plan in place so we can reach all our deadlines and not run out of time.   
 
-In the project directory, you can run:
+# Architecture 
+MERN is full-stack and it uses a three-tier architectural pattern including the front-end display tier (React.js), application tier (Express.js and Node.js) and database tier (MongoDB).
+React is the top tier of the application and is used for creating dynamic client-side applications in HTML. By using react you can create and build an interface and connect it to the back-end server and render it as HTML. 
+Express.js and Node.js work as the server tier. The Express server-side framework runs inside a node.js server. Express matches a URL with a server function and handles HTTP requests and responses. The functions in React can connect to Express and MongoDB and allow the application to work.
+MongoDB is the third tier and functions as the database. JSON documents created in React can be sent to the Express server where they are processed and stored directly in MongoDB where they can be retrieved at a later stage. 
 
-### `npm start`
+App Diagram 
+https://user-images.githubusercontent.com/114668117/220404173-b15b76db-900d-4d94-bf63-44322fbe5540.jpg
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Contributors
+[Dara Lenaghan] (Author)
+[Shauna Martyn] (Author)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
