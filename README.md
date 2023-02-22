@@ -23,7 +23,14 @@ Had a discussion to plan out our project and what milestones we attend to achiev
 Decided on an ecommerce website for selling phones using MERN stack. 
 Created Git hub and notion account for our project where we can make notes and both upload code. 
 Had a meeting with our supervisor about our project where we were advised to have the architecture done before we started coding.
-We were also advised to have a plan in place so we can reach all our deadlines and not run out of time.   
+We were also advised to have a plan in place so we can reach all our deadlines and not run out of time.  
+
+# Week 2
+In week 2 we started coding our app. The code was accidently uploaded to the wrong repo and we found it difficult to push it to the correct one. It took us a few days to get this issue corrected as we were also having trouble with one of our laptops and could not get into it to see the code for a few days. 
+We decided with our supervisor to host our web app on a server instead of locally. 
+
+# Week 3
+In week 3 we had regained access to our code and had to create a new repo on github with the same code. We also successfully ran our app on codespace the internal cloud server on github and we ran it on gitpod too. We decided to host our app on an Azure server as we could link the server to our github repo.
 
 # Architecture 
 MERN is full-stack and it uses a three-tier architectural pattern including the front-end display tier (React.js), application tier (Express.js and Node.js) and database tier (MongoDB).
