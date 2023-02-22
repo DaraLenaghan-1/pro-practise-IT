@@ -1,3 +1,5 @@
+//import image from "./images";
+
 const data = {
     products: [
         {
